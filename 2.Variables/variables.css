@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  width: 300px;
+  font-size: 25px;
+  background-color: #ed0cef;
+}
+
+header h2 {
+  color: #8105d8;
+}
+
+section {
+  width: 100%;
+  width: 300px;
+  font-size: 25px;
+}
+
+section p {
+  font-family: cursive;
+}
+
+footer {
+  width: 100%;
+  width: 300px;
+  background-color: #ed0cef;
+  font-size: 25px;
+}
+
+footer p {
+  font-family: cursive;
+}
+
+footer h2 {
+  color: #8105d8;
+}

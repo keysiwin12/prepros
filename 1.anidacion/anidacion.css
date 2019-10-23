@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+
+header {
+  background-color: #ffd369;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin: 10px 20px;
+}
+
+header .logo img {
+  width: 100px;
+  height: 80px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul li {
+  margin: auto 30px;
+}

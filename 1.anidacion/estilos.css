@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffd369;
+}
+header .logo {
+    margin: 10px 20px;
+
+}
+
+
+header .logo img {
+    width: 100px;
+    height: 80px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin : auto 30px;
+}
+
+header .link {
+    text-decoration: none;
+    color: #58508d;
+    font-size: 20px;
+}
+

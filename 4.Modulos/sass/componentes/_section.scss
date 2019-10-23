@@ -1,0 +1,25 @@
+body {
+    background-color: blue;
+    @media #{$media-celular} {
+        background-color: red;
+    }
+}
+
+
+
+
+
+.seccion-perfil {
+    background-color: #43ab92;
+    padding: 40px 50px;
+    color: $colorSecundario;
+    display: flex;
+    flex-direction: row;
+    &__titulo {
+        font-size: 180px;
+        
+    }
+    &__parrafo {
+        font-size: 30px;        
+    }
+}

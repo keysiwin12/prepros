@@ -1,0 +1,58 @@
+/* Variables */
+/* Reseteando */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  background-color: #14868C;
+  color: #ffff;
+  font-display: "Heebo", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__logo {
+  margin: 25px;
+}
+
+.header__menu {
+  list-style: none;
+  display: flex;
+}
+
+.header__menu li {
+  margin: 25px;
+}
+
+.header a {
+  color: #ffff;
+}
+
+body {
+  background-color: blue;
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    background-color: red;
+  }
+}
+
+.seccion-perfil {
+  background-color: #43ab92;
+  padding: 40px 50px;
+  color: #ffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.seccion-perfil__titulo {
+  font-size: 180px;
+}
+
+.seccion-perfil__parrafo {
+  font-size: 30px;
+}

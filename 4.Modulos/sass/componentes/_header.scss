@@ -1,0 +1,22 @@
+.header {
+    background-color: $colorPrimario;
+    color: $colorSecundario;
+    font-display: $tipoLetra;
+    font-size: 20px;
+    display:flex;
+    justify-content: space-around;
+    &__logo {
+        margin: $menuMargin;
+    }
+    &__menu {
+        list-style: none;
+        display: flex;
+        li {
+            margin : $menuMargin;
+        }
+    }
+
+    a{
+        color: $colorSecundario;
+    }
+}
